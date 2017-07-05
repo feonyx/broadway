@@ -1,0 +1,15 @@
+body {
+
+}
+
+section.title-banner {
+  background-image: url("../images/the-flatiron-building.png");
+}
+
+h3.footer-divisor {
+  background-image: url("../images/the-flatiron-building.png");
+}
+
+nav.footer-links {
+  background-color: gray;
+}
