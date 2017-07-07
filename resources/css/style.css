@@ -5,12 +5,38 @@ body {
 
 section.title-banner {
   background-image: url("../images/the-flatiron-building.png");
+  color: white;
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 70px;
+  font-weight: bold;
 }
 
 h3.footer-divisor {
   background-image: url("../images/the-flatiron-building.png");
+  color: white;
+  font-size: 23px;
+  font-weight: bold;
 }
 
 nav.footer-links {
   background-color: dimgray;
+}
+
+ul {
+  list-style: none;
+  list-style-position: outside;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+a {
+  color: white;
+}
+
+li a {
+  display: block;
 }
