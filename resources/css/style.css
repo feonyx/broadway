@@ -9,6 +9,14 @@ section.title-banner {
   font-size: 18px;
 }
 
+footer {
+  background-color: dimgray;
+  color: white;
+  font-size: 11px;
+  float: left;
+  display: block;
+}
+
 h1 {
   font-size: 70px;
   font-weight: bold;
@@ -21,29 +29,30 @@ h3.footer-divisor {
   font-weight: bold;
 }
 
-nav.footer-links {
-  background-color: dimgray;
-}
-
 ul {
-  list-style: none;
+  list-style-type: none;
   list-style-position: outside;
   margin: 0;
   padding: 0;
-  font-weight: bold;
-}
-
-ul.ft-links li{
-  float: left;
-  padding-left: 6px;
-}
-
-a {
-  color: white;
   display: block;
 }
 
-li.copyright {
+#footer-links li {
+  display: inline;
+  font-size: 18px;
+}
+
+#footer-links a {
+  text-decoration: none;
+}
+
+#footer-color {
+  background-color: dimgray;
+}
+a {
   color: white;
+}
+
+span.copyright {
   font-size: 11px;
 }
