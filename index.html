@@ -7,16 +7,14 @@
   </head>
   <body>
     <section class="title-banner">
-      <h1>Broadway Design</h1>
-      <nav id="banner-links">
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Process</a></li>
-          <li><a href="#">Work</a></li>
-          <li><a href="#">Team</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
+      <div id="banner-links">
+        <h1>Broadway Design</h1>
+        <p><a href="#">Home</a></p>
+        <p><a href="#process">Process</a></p>
+        <p><a href="#portfolio">Work</a></p>
+        <p><a href="#team">Team</a></p>
+        <p><a href="#contact">Contact</a></p>
+      </div>
     </section>
     <section id="process">
       <h2>Our Process</h2>
@@ -34,27 +32,33 @@
       <h3 class="footer-divisor">
         Designed in New York
       </h3>
-      <h3>Portfolio</h3>
-      <p>Coming Soon</p>
-      <h3>Team</h3>
-      <p>We're Hiring!</p>
-      <h3>Contact</h3>
-      <p>Phone: (555)-555-5555</p>
-      <p>Email: test&#64;example.com</p>
-      <p>Twitter: &#64;test</p>
+      <div id="portfolio">
+        <h3>Portfolio</h3>
+        <p>Coming Soon</p>
+      </div>
+      <div id="team">
+        <h3>Team</h3>
+        <p>We're Hiring!</p>
+      </div>
+      <div id="contact">
+        <h3>Contact</h3>
+        <p>Phone: (555)-555-5555</p>
+        <p>Email: test&#64;example.com</p>
+        <p>Twitter: &#64;test</p>
+      </div>
     </section>
     <footer>
-      <div id="footer-color">
-      <nav id="footer-links">
-        <ul class="foot">
-          <li><span class="copyright">&copy; Broadway 2017</span></li>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Process</a></li>
-          <li><a href="#">Work</a></li>
-          <li><a href="#">Team</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
+      <div class="footer">
+        <nav class="footer-links">
+          <p>
+            <span class="copyright">&copy; Broadway 2017</span>
+            <a href="#">Home</a>
+            <a href="#process">About</a>
+            <a href="#portfolio">Work</a>
+            <a href="#team">Team</a>
+            <a href="#contact">Contact</a>
+          </p>
+        </nav>
       </div>
     </footer>
   </body>
